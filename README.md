@@ -1,2 +1,3 @@
-# vesper-ai-pwa
-Vesper AI public preview: a browser-based, installable local AI chat workspace.
+# Vesper AI
+
+An independent public preview of an installable AI chat workspace.
