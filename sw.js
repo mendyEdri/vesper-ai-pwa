@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vesper-ai-app-v4';
+const CACHE_NAME = 'vesper-ai-app-v5';
 const STATIC_ASSETS = [
   './',
   './index.html',
