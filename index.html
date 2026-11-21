@@ -14,11 +14,20 @@
     <link rel="apple-touch-icon" href="./icon-192.png" />
     <link rel="manifest" href="./manifest.webmanifest" />
     
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="./assets/index-DXq8S3Tm.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-C3M-2C1I.css">
+    <script type="importmap">
+      {
+        "imports": {
+          "@huggingface/transformers": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.3.2/dist/transformers.min.js"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-CdON4B71.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C7vm_ThN.css">
   </head>
   <body class="bg-[#090a0f] text-[#f0f4f8] antialiased selection:bg-[#00F2FE]/30 selection:text-[#00F2FE] min-h-screen overflow-x-hidden">
     <div id="root"></div>
